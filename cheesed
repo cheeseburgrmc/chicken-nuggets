@@ -13,7 +13,9 @@ Tab:AddButton({
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
   	end    
 })
---hi make sure you have these avatar
+OrionLib:MakeNotification({
+	Name = "hey owner here",
+	Content = "make sure you have the hairs to begin with the script with the following 
 --• https://www.roblox.com/catalog/1103003368/Orange-Beanie-with-Black-Hair
 --• https://www.roblox.com/catalog/376527500/Orange-Shades
 --• https://www.roblox.com/catalog/4246228452/International-Fedora-Spain
@@ -22,8 +24,10 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X')
 --• https://www.roblox.com/catalog/451220849/Lavender-Updo
 --• https://www.roblox.com/catalog/376526888/Straight-Blonde-Hair
 --• https://www.roblox.com/catalog/62234425/Brown-Hair
---• https://www.roblox.com/catalog/63690008/Pal-Hair
-
+--• https://www.roblox.com/catalog/63690008/Pal-Hair",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
   
 print("IDropKickedMyMother 😀😀😀")
 print("that was a joke this is also for testing")
